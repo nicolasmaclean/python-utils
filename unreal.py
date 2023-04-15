@@ -74,6 +74,7 @@ def render_main_level_with_global_preset(preset_file_name=RENDER_PRESET.LOW):
     render_main_level_and_sequence(preset)
     return True
 
+  
 def render_low():
     """
     Wrapper of render_main_level_with_global_preset with the low preset.
@@ -83,6 +84,7 @@ def render_low():
     """
     return render_main_level_with_global_preset(RENDER_PRESET.LOW)
 
+  
 def render_high():
     """
     Wrapper of render_main_level_with_global_preset with the high preset.
@@ -92,6 +94,7 @@ def render_high():
     """
     return render_main_level_with_global_preset(RENDER_PRESET.HIGH)
 
+  
 def render_final():
     """
     Wrapper of render_main_level_with_global_preset with the final preset.
